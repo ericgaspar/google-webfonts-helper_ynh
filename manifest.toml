@@ -15,8 +15,6 @@ maintainers = ["eric_G"]
 license = "MIT"
 website = "https://gwfh.mranftl.com/fonts"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/majodev/google-webfonts-helper"
 
 [integration]
@@ -36,10 +34,6 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.path]
-    type = "path"
-    default = "/example"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -57,15 +51,7 @@ ram.runtime = "50M"
 
     [resources.install_dir]
 
-    [resources.data_dir]
-
     [resources.permissions]
     main.url = "/"
 
     [resources.ports]
-
-    [resources.apt]
-    packages = "mariadb-server, deb1, deb2, php8.3-foo, php8.3-bar"
-
-    [resources.database]
-    type = "mysql"
