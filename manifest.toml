@@ -13,8 +13,8 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://gwfh.mranftl.com/fonts"
-demo = "https://demo.example.com"
+website = "https://gwfh.mranftl.com/"
+demo = "https://gwfh.mranftl.com/fonts"
 code = "https://github.com/majodev/google-webfonts-helper"
 
 [integration]
